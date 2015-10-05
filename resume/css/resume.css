@@ -1,0 +1,85 @@
+/* Reset */
+/* ------------------------ */
+* {
+	margin: 0;
+	padding: 0;	
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+p {
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+/* Layout */
+/* ------------------------ */
+body {
+	font-family: "Arial";
+	color: indigo;
+	background: lavender;
+	padding: 20px;
+	border: 3px solid indigo;
+	margin: 20px;
+}
+
+header,
+section,
+footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+
+/* Headings */
+/* ------------------------ */
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+/* Navigation Lists */
+/* ------------------------ */
+
+nav ul {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+}
+
+/* Links */
+/* ------------------------ */
+
+a {
+	color: purple;
+}
+
+/* About Me page */
+/* ------------------------ */
+img {
+	width: 200px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border: 2px solid purple;
+	padding: 5px;
+}
+
+
+/* Resume page */
+/* ------------------------ */
+
+
+
+
+/* Resume page - Experience */
+/* ------------------------ */
