@@ -18,17 +18,18 @@ p {
 /* Layout */
 /* ------------------------ */
 header {
-	background: indigo;
+	background: black;
 	color: white;
 	font-family: "Papyrus";
+	border-bottom: 3px solid salmon;
 }
 
 body {
-	background: lavender;
+	background: lavenderblush;
 }
 
 section {
-	color: indigo;
+	color: brown;
 	margin-left: 30px;
 	margin-right: 30px;
 	font-family: "Arial";
@@ -72,7 +73,7 @@ nav li {
 /* ------------------------ */
 
 header a {
-	color: coral;
+	color: salmon;
 }
 
 /* About Me page */
@@ -104,6 +105,10 @@ footer img {
 
 section ul li {
 	line-height: 1.5;
+}
+
+h3 {
+	text-decoration: underline;
 }
 
 em {
