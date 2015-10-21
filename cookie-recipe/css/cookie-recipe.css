@@ -24,8 +24,8 @@ h4 {
 }
 
 .i {
-    position: absolute;
-    right: 385px;
+	position: absolute;
+	left: 520px;
     top: 305px;
 }
 
@@ -79,6 +79,7 @@ article {
 	background: #EED698;
 	margin: 0;
 	width: 320px;
+	position: absolute;
 
 }
 
@@ -90,15 +91,7 @@ aside {
 	background: #F0F0D9;
 	margin: 0;
 	width: 615px;
+
 }
 
-/*
-p {
-	flex: 1;
-}
 
-h6 {
-	flex: 2;
-}
-
-*/
