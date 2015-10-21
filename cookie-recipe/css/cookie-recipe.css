@@ -18,12 +18,24 @@ h4 {
 	margin-top: 20px;
 }
 
+.info {
+	width: 35px;
+	height: 35px;
+}
+
+.i {
+    position: absolute;
+    right: 385px;
+    top: 305px;
+}
+
 h1 {
 	font-size: 150%;
 	font-weight: bolder;
 }
 
-p {
+p,
+blockquote {
 	color: #8FA68B;
 	margin-left: 20px;
 	margin-right: 20px;	
@@ -41,7 +53,8 @@ ol {
 }
 
 div p,
-article p {
+article p,
+article blockquote {
 	color: #4B4A37;
 
 }
@@ -69,7 +82,7 @@ article {
 
 }
 
-article p:last-child{
+article p{
 	margin-top: 20px;
 }
 
