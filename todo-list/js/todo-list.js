@@ -1,12 +1,12 @@
 // Structure
-var form = document.querySelector("form");
-var input = document.querySelector("input");
+var task = document.querySelector(".task");
+var date = document.querySelector(".date");
 var entries = document.querySelector(".entries");
 
 // Setup
 
 // Events
-form.addEventListener("click", add);
+button.addEventListener("click", add);
 
 function add (event) {
 	event.preventDefault();
