@@ -1,0 +1,47 @@
+/* CSS Reset */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 600px;
+	margin: auto;
+}
+
+header {
+	display: block;
+
+}
+
+img {
+	display: block;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid grey;
+}
+
+li:last-child {
+	border: none;
+}
+
+li,
+section,
+ul {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+article,
+div,
+h3 {
+	flex: 1;
+}

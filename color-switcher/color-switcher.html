@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Switcher</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/color-switcher.css">
+</head>
+<body>
+
+<body class="">
+
+<h1>Color Scheme Switcher</h1>
+
+<ul>
+	<li class="olive">Olive</li>
+	<li class="salmon">Salmon</li>
+	<li class="burlywood">Burlywood</li>
+	<li class="thistle">Thistle</li>
+</ul>
+
+<script>
+
+function changeColor (color) {
+
+var body = document.querySelector("body");
+body.setAttribute("class", color);
+
+}
+//function changeColor makes sure it wont change color when page load
+</script>
+
+
+</body>
+</html>

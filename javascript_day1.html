@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Day 1</title>
+</head>
+
+
+
+<body>
+
+	<p> Examples of Javascript</p>
+
+<script>
+	function addTwoNumbers() {
+		//var firstNumber = prompt("Give me a number");
+		var firstNumber = parseInt(prompt("Give me a number"));
+		//var parsedNumber = parseInt(firstNumber)
+		//console.log(firstNumber);
+		var secondNumber = parseInt(prompt("Give me another number"));
+		var sum = firstNumber + secondNumber;
+		return sum;
+}
+
+	function addTwoNewNumbers(num1,num2){
+		var sum = num1 + num2
+		return sum;
+}
+
+	function convertCelciusToFahrenheit(celcius){
+		var convert = celcius* 9/5 + 32
+		return convert;
+}
+	function convertFahrenToCelc(fahren){
+		var convert = (fahren-32) * 5/9
+		return convert;
+}
+
+	function promptCelciusToFahrenheit(celcius){
+		var celcius = prompt("give me a time in celcius");
+		var fahren = celcius* 9/5 + 32
+		return fahren;
+}
+
+	
+//calculate area of a triangle given base and height
+	function areaOfTriangle(base, height){
+		var area = base*height/2
+		return area;
+	}
+
+
+//calculate the circumference of a circle
+	function circumferenceOfCircle(radius){
+		var rounded = 2 * Math.PI * radius 
+		var areaRounded = rounded.toFixed(2)
+		return areaRounded;
+}
+
+
+</script>
+
+</body>
+</html>

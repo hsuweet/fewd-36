@@ -1,0 +1,34 @@
+ul, 
+h1{
+	display: flex;
+	margin-top: 20px;
+}
+
+li{
+	width: 50px;
+	height: 50px;
+	border: 4px solid black;
+	border-radius: 50%;
+	margin: 0 10px;
+	text-indent: -5000px;
+	/*hack to make the text disappear off the screen*/
+	color: transparent;
+}
+
+/*li.olive but leave out li to leave out element selector before class*/
+.olive {
+	background: olive;
+}
+
+
+.salmon {
+	background: salmon;
+}
+
+.burlywood {
+	background: burlywood;
+}
+
+.thistle {
+	background: thistle;
+}

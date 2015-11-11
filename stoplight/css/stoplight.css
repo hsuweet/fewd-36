@@ -32,17 +32,7 @@ body {
 	text-indent: -5000px;
 }
 
-.red {
-	background-color: red;
-}
 
-.yellow {
-	background-color: yellow;
-}
-
-.green {
-	background-color: green;
-}
 
 .left button {
 	background-color: #444;
@@ -55,15 +45,43 @@ body {
 	border-style: none;
 }
 
-.stop:hover,
-.slow:hover,
-.go:hover {
-	background-color: #888;
+
+/*EVENT DELEGATION GOOGLE IT*/
+
+.black {
+	background-color: black;
 }
 
-.hidden {
-	visibility: hidden;
+/*State 1*/
+.stop-red {
+	background-color: red;
+}
+.stop-yellow {
+	background-color: black;
+}
+.stop-green {
+	background-color: black;
 }
 
 
+/*State 2*/
+.slow-yellow {
+	background-color: yellow;
+}
+.slow-red {
+	background-color: black;
+}
+.slow-green {
+	background-color: black;
+}
 
+/*State 3*/
+.go-green {
+	background-color: green;
+}
+.go-yellow {
+	background-color: black;
+}
+.go-red {
+	background-color: black;
+}
