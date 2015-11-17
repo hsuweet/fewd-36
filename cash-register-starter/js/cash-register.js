@@ -13,6 +13,7 @@ var totalValue = 0;
 
 // Events
 // ------------------------------------------------
+
 form.addEventListener("submit", enter);
 
 function enter (event){
@@ -27,9 +28,12 @@ function enter (event){
 	//make list
 	var newItem = document.createElement("LI");
 
+
+	// change text
 	newItem.textContent = inputValue;
 
 	entries.appendChild(newItem);
 
 	total.textContent = totalValue;
 }
+
