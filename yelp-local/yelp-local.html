@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>Yelp Local</title>
+	<link rel="stylesheet" href="css/yelp-local.css"/>
+</head>
+<body>
+	<h1>Yelp Local</h1>
+
+	<p>
+		Drag this link to your favorites and then open the yelp.com page.
+	</p>
+
+	<a href="javascript:(function() {
+		var s = document.createElement('script');
+		
+		s.setAttribute('src', 'js/yelp-local.js');
+		
+		document.querySelector('body').appendChild(s);
+	   })()">Yelp Local</a>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+<!-- <script src="js/yelp-local.js"></script> -->
+
+</body>
